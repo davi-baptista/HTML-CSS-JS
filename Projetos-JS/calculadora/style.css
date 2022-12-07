@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(79, 79, 252);
+    font: normal 15pt Arial;
+}
+header {
+    text-align: center;
+    color: white;
+}
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.459);
+}
+div {
+    padding: 20px;
+}
+div#entrada {
+    text-align: center;
+}
+div#sinais {
+    font: normal 15pt Arial;
+    text-align: center;
+}
+div#resultado {
+    font: normal 20pt Arial;
+    text-align: center;
+}
+input[type="number"] {
+    width: 50px;
+    height: 50px;   
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
