@@ -4,10 +4,10 @@
 | Curso desenvolvimento web completo - Udemy | [Em andamento][] |
 | --- | --- |
 
-| Curso HTML-CSS | [Concluído-HTML-CSS][] |
+| Curso HTML-CSS - Curso em vídeo| [Concluído-HTML-CSS][] |
 | --- | --- |
 
-| Curso Javascript| [Concluído-JS][] |
+| Curso Javascript - Curso em vídeo| [Concluído-JS][] |
 | --- | --- |
 
 [Em andamento]: https://www.udemy.com/course/web-completo/
