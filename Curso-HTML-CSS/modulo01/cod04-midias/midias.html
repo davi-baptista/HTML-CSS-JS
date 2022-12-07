@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+    <style>
+    h2{
+       margin-top: 80px; 
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Arquivos de mídia</h1>
+    <h2>Arumando tamanho da imagem de acordo com o tamanho do site</h2>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>Colocando audio</h2>
+    <audio preload="metadata" controls>  
+        <source src="audio/musicalofi.mp3" type="audio/mpeg">
+        <source src="#" type="audio/ogg">
+        <source src="#" type="audio/wav">
+        <p>O navegador não conseguiu reproduzir o audio. Clique <a href="audio/musicalofi.mp3" download="musicalofi.mp3">aqui</a> para baixa-lo em mp3.</p>
+    </audio>
+    
+    <h2>Colocando video hospedado localmente</h2>
+    <video controls width="560" poster="imagens/minotaur.png">
+        <source src="video/jogocpp.mp4" type="video/mp4">
+        <source src="#" type="video/mp4"> <!-- m4v -->
+        <source src="#" type="video/ogg"> <!-- ogv -->
+        <source src="#" type="video/webm"> <!-- webm -->
+        <p>O navegador não abriu o video. Clique <a href="video/jogocpp.mp4" download="jogocpp.mp4">aqui</a> para baixar.</p>
+    </video>
+
+    <h2>Video externo</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0lzN_PuWJtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
