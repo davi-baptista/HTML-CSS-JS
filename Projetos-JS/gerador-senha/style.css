@@ -1,0 +1,24 @@
+body {
+    background-color: #5A2DFA;
+}
+h1 {
+    font: normal 30pt 'Andale Mono', monospace;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.185);
+}
+
+p {
+    padding: 20px;
+}
+section {
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.096);
+    padding: 20px;
+}
+div {
+    font: normal 15pt OCR A Std, monospace;
+}
