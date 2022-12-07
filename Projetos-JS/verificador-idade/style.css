@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(79, 79, 252);
+    font: normal 15pt Arial;
+}
+header {
+    text-align: center;
+    color: white;
+}
+section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.459);
+}
+div {
+    padding: 20px;
+    text-align: center;
+}
