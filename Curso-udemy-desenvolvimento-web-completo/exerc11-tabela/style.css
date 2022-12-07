@@ -1,0 +1,33 @@
+table {
+    width: 600px;
+    border-collapse: collapse; 
+}
+
+th, td {    
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #999;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #aef7f4;
+}
+
+.cabecalho:hover {
+    background-color: white;
+}
+
+.right {
+    text-align: right !important;
+}
