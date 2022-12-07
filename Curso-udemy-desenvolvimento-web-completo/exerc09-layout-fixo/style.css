@@ -1,0 +1,65 @@
+body {
+    background: #f2f2f2;
+}
+
+#container {
+    background: white url(imagens/coluna.png) repeat-y left top;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#marca {
+    background: rgb(158, 151, 151);
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+#conteudo {
+    width: 720px;
+    float: right;
+}
+
+#conteudo-principal {
+    width: 440px;
+    float: left;
+    padding-bottom: 2em;
+}
+
+#conteudo-secundario {
+    background: #d1d1d1;
+    width: 260px;
+    float: right;
+    text-align: center;
+}
+
+#conteudo-secundario h1, #conteudo-secundario h2, #conteudo-secundario h3, #conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao {
+    padding-top: 2em;
+    width: 220px;
+    float: left;
+}
+
+#navegacao ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navegacao li a {   
+    font-size: 1em;
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 50px;
+}
+
+#rodape {
+    clear: both;
+    background: rgb(158, 151, 151);
+}
