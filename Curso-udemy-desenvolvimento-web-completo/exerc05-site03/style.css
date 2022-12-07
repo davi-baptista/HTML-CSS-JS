@@ -1,0 +1,112 @@
+/*
+Limpando formatações padrões
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*
+Area Cabecalho
+*/
+#area-cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #area-menu{
+    padding: 10px;   
+}
+
+/*
+Formatação do menu
+*/
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    padding: 8px 12px;
+    color: white;
+}
+#area-cabecalho a:hover {
+    color: #f7b600;
+    background-color: white;
+    text-decoration: none;
+}
+
+/*
+Area Conteudo principal
+*/
+#area-conteudo {
+    width: 920px;
+    margin: 20px auto;
+}
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+.postagem {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+#rodape {
+    background-color: #CCC;
+    padding: 15px;
+    clear: both;
+}
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*
+Area conteudo lateral
+*/
+.conteudo-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.postagem-lateral {
+    border-top: 2px solid #CCC;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+/*
+Formatação geral
+*/
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2 {
+    color: #f7b600;
+}
+h3 {
+    color: #4e4e4e  ;
+    background-color: #CCC;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #f7b600
+}
+a:hover {
+    text-decoration: underline;
+}
+.branco {
+    color: white;   
+}
