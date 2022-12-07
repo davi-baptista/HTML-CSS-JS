@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando float</title>
+    
+    <style>
+        body {
+            background-color: rgb(219, 184, 26);
+        }
+        #principal {
+            width:  920px;
+        }
+        .noticia {
+            background: rgb(109, 32, 211);
+            padding: 5px;
+            float: left;
+            width: 280px;
+            margin: 8px;
+            text-align: justify;
+        }
+        .foto {
+            margin: 8px;
+            float: left;
+        }
+        .borda {
+            border: 13px rgb(109, 32, 211) ridge;
+        }
+        .clear {
+            clear: both;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:link, a:visited {
+            color: rgb(219, 184, 26)
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="principal">
+        <div>
+            <h1>Noticias:</h1>
+            <div class="noticia">
+                <h2>Titulo 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum magni perspiciatis culpa obcaecati nemo ab voluptates. Necessitatibus accusantium at, reiciendis qui tempora, nulla veritatis, iure mollitia recusandae nostrum minus! Esse.</p>
+                <a href="">Ver mais</a>
+            </div>
+            <div class="noticia">
+                <h2>Titulo 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum magni perspiciatis culpa obcaecati nemo ab voluptates. Necessitatibus accusantium at, reiciendis qui tempora, nulla veritatis, iure mollitia recusandae nostrum minus! Esse.</p>
+                <a href="">Ver mais</a>
+            </div>
+            <div class="noticia">
+                <h2>Titulo 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum magni perspiciatis culpa obcaecati nemo ab voluptates. Necessitatibus accusantium at, reiciendis qui tempora, nulla veritatis, iure mollitia recusandae nostrum minus! Esse.</p>
+                <a href="">Ver mais</a>
+            </div>
+        </div>  
+        
+        <hr class="clear">
+
+        <div>
+            <h1>Galeria:</h1>
+            <div class="foto">
+                <img src="imagens/imagem1.png" alt="imagem1" class="borda">
+            </div>
+            <div class="foto">
+                <img src="imagens/imagem2.png" alt="imagem2" class="borda">
+            </div>
+            <div class="foto">
+                <img src="imagens/imagem3.png" alt="imagem3" class="borda">
+            </div>
+            <div class="foto">
+                <img src="imagens/imagem4.png" alt="imagem4" class="borda">
+            </div>
+            <div class="foto">
+                <img src="imagens/imagem5.png" alt="imagem5" class="borda">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
