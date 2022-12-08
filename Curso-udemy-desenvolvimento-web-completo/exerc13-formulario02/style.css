@@ -1,6 +1,7 @@
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #643d87 url(imagens/fundo.jpg) no-repeat top center;
+    background: #643d87 url(imagens/fundo.jpg) no-repeat top center fixed;
+    background-size: cover;
 }
 
 #container {
@@ -17,9 +18,9 @@ body {
 }
 
 #container img {
-    width: 120px;
-    height: 120px;
-    margin-top: -60px;
+    width: 140px;
+    height: 140px;
+    margin-top: -70px;
     margin-bottom: 30px;
 }
 
