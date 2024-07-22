@@ -1,21 +1,17 @@
-# Projetos em Javascript, HTML e CSS
-<br>
+# HTML, CSS e JavaScript - Cursos e Projetos
 
-| Curso desenvolvimento web completo - Udemy | [Link do curso Web Completo][] |
-| --- | --- |
-<a href="https://github.com/davimb/HTML-CSS-JS/tree/main/Curso-udemy-desenvolvimento-web-completo">Entrar no repositorio</a>
-<br>
+Este repositório contém os arquivos e projetos dos cursos de HTML, CSS e JavaScript que estou seguindo. Ele é dividido em três seções principais, cada uma correspondendo a um curso específico.
 
-| Curso HTML-CSS - Curso em vídeo| [Link do curso HTML-CSS][] |
-| --- | --- |
-<a href="https://github.com/davimb/HTML-CSS-JS/tree/main/Curso-HTML-CSS">Entrar no repositorio</a>
-<br>
+## Estrutura do Repositório
 
-| Curso Javascript - Curso em vídeo| [Link do curso JS][] |
-| --- | --- |
-<a href="https://github.com/davimb/HTML-CSS-JS/tree/main/Projetos-JS">Entrar no repositorio</a>
-<br>
+1. **HTML e CSS Básico**
+   - Este curso cobre os fundamentos de HTML e CSS.
+   - Inclui exercícios práticos e exemplos para ajudar a entender como construir e estilizar páginas web.
 
-[Link do curso Web Completo]: https://www.udemy.com/course/web-completo/
-[Link do curso HTML-CSS]: https://www.cursoemvideo.com/curso/javascript/
-[Link do curso JS]: https://www.cursoemvideo.com/curso/html5-css3-modulo1/
+2. **Desenvolvimento Web Completo**
+   - Um curso abrangente que abrange diversas tecnologias web.
+   - Focado em proporcionar uma compreensão completa do desenvolvimento web.
+
+3. **Projetos em JavaScript**
+   - Esta seção contém diversos projetos práticos em JavaScript.
+   - Projetos desenvolvidos para praticar e aprimorar as habilidades em JavaScript, incluindo manipulação do DOM e eventos.
